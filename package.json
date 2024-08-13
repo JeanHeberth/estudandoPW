@@ -1,0 +1,22 @@
+{
+  "name": "estudandopw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/JeanHeberth/estudandopw.git"
+  },
+  "author": "Jean Heberth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/JeanHeberth/estudandopw/issues"
+  },
+  "homepage": "https://gitlab.com/JeanHeberth/estudandopw#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "@types/node": "^22.2.0",
+    "typescript": "^5.5.4"
+  }
+}
