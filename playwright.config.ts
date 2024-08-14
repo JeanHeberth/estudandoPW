@@ -16,7 +16,6 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     baseURL: 'https://www.saucedemo.com/',
-    headless: false,
     launchOptions: {
       slowMo: 300,
           },
