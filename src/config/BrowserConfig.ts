@@ -7,7 +7,7 @@ export class BrowserConfig {
     private page: Page;
 
     async start() {
-        this.browser = await chromium.launch({ headless: false }); // Alterar para 'true' em produção
+        this.browser = await chromium.launch({ headless: true }); // Alterar para 'true' em produção
         this.page = await this.browser.newPage();
         return this.page;
     }
