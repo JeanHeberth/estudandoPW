@@ -6,6 +6,6 @@ test('the user login with sucess', async ({page}) => {
     const loginPage = new LoginPage(page);
     await loginPage.goto();
     await loginPage.verifyTitle();
-    await loginPage.login('standard_user', 'secret_sauce');
+    await loginPage.login('standard_users', 'secret_sauce');
     await loginPage.verifyLoginSuccess();
 });
